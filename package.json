@@ -1,0 +1,22 @@
+{
+  "name": "orande_pi_nodejs_server",
+  "private": true,
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Batuhan Yılmaz",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
